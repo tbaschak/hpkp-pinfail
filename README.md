@@ -10,7 +10,7 @@ a webservice for accepting HTTP Public-Key-Pins Pin failure reports
 
 A sample report that you can send with curl is included.
 
-```
+```sh
 curl -d @samples/sample-json --header "Content-Type: application/json" \
 -vX POST http://localhost:5000/hpkp
 ```
