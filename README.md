@@ -65,11 +65,11 @@ a webservice for gathering HTTP Public-Key-Pins report-uri reports
 
 ## TODOs
 
-[ ] accept/decode/validate JSON POSTed requests
-[ ] log to sqlite
-[ ] log to mysql
-[ ] log to couchdb
-[ ] nagios check_hpkp_pinfail util to check number of records and subtract previous to show growth and alarm
+- [ ] accept/decode/validate JSON POSTed requests
+- [ ] log to sqlite
+- [ ] log to mysql
+- [ ] log to couchdb
+- [ ] nagios check_hpkp_pinfail util to check number of records and subtract previous to show growth and alarm
 
 ## Reference
 
