@@ -6,9 +6,11 @@ a webservice for accepting HTTP Public-Key-Pins Pin failure reports
 
 1.  Use `virtualenv` and install flask in your environment.
 
-    virtualenv env
-    env/bin/activate
-    pip install flask
+```
+virtualenv env
+env/bin/activate
+pip install flask
+```
 
 ## Installation
 
