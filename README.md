@@ -63,6 +63,14 @@ a webservice for gathering HTTP Public-Key-Pins report-uri reports
 }
 ```
 
+## TODOs
+
+[ ] accept/decode/validate JSON POSTed requests
+[ ] log to sqlite
+[ ] log to mysql
+[ ] log to couchdb
+[ ] nagios check_hpkp_pinfail util to check number of records and subtract previous to show growth and alarm
+
 ## Reference
 
 * [IETF: Public Key Pinning Extension for HTTP](https://tools.ietf.org/html/draft-ietf-websec-key-pinning-21#section-3)
